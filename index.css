@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-color: transparent;
+    width: 100vw;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 100%;
+}
+
+.navbar-header {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    color: black;
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+.navbar-item {
+    color: black;
+    font-family: "Roboto";
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 6px;
+    text-decoration: none;
+
+
+}
+
+.ulist {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width:575px) {
+    .work-heading {
+        font-size: 10px;
+    }
+
+    .ulist {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .cococola2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .ulist {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .work-heading {
+        font-family: "Roboto";
+        color: black;
+        font-size: 30px;
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .work-text {
+        font-family: "Roboto";
+        color: black;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+
+.work-section {
+    padding: 5px;
+}
+
+.work-heading {
+    font-family: "Roboto";
+    color: black;
+    font-size: 40px;
+    width: 80vw;
+    margin-bottom: 30px;
+}
+
+.work-text {
+    font-family: "Roboto";
+    color: black;
+    font-size: 30px;
+
+}
+
+.text-dec {
+    text-decoration: none;
+}
+
+.work-img {
+    background-image: url('https://burocratik.com/wp-content/uploads/2022/08/sandclock-cover.jpg');
+    width: 50vw;
+    height: 30vh;
+    background-size: cover;
+}
+
+.sandclock {
+    color: white;
+}
+
+.short-reel-video {
+    width: 100vw;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.year {
+    font-family: "Roboto";
+    color: black;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.mar {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.meet {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.sandclock {
+    height: 300px;
+    width: 45vw;
+}
+
+.sandclock2 {
+    height: 400px;
+    width: 55vw;
+}
+
+.sandclock3 {
+    height: 500px;
+    width: 55vw;
+}
+
+.s3 {
+    width: 55vw;
+}
+
+.s4 {
+    width: 35vw;
+}
+
+.sandclock4 {
+    height: 300px;
+    width: 35vw;
+}
+
+.width-50 {
+    width: 100%;
+}
+
+.cococola {
+    height: 50px;
+    width: 120px;
+    margin-right: 14px;
+}
+
+.cococola2 {
+    height: 50px;
+    width: 120px;
+    margin-right: 14px;
+    display: flex;
+}
+
+.align-row {
+    display: flex;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.align-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulist2 {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.shortreel {
+    width: 70vw;
+    margin-bottom: 0px;
+
+}
+
+.align-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 500px;
+}
+
+.mar2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.mar3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mar0 {
+    margin-top: 100px;
+}
